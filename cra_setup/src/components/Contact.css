@@ -1,0 +1,61 @@
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333; /* Darker color for the heading */
+  }
+  
+  .form-group {
+    margin: 20px 0;
+    text-align: left;
+    width: 80%; /* Width of the form */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    height: 100px; /* Default height */
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
